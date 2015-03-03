@@ -1,0 +1,133 @@
+html, body {
+
+width:100%;
+height: 100%;
+margin: 0;
+
+
+}
+
+.nav {
+
+	background-color:
+	hsla(178,76%,35%,1); 
+	margin: 0;
+}
+ .image {
+ 	position:relative;
+height: 200px;
+width: 20%;
+ border: 1px solid black;
+ margin: 0;
+float: left;
+}
+.image > img {
+	height: 100%;
+	width: 100%;
+}
+ 
+  .contact {
+	position: absolute;
+left: center;
+
+	z-index: 1;
+	width: 50%;
+	text-align: center;
+	box-sizing: border-box;
+	border: 1px solid black;
+	padding: 50px;
+
+
+}
+h2 {
+	text-align: center;
+}
+ .nav-tabs {
+ 	color: hsla(320,100%,98%,1);
+ 	margin: 0 auto;
+ }
+ .mainContainer {
+ 	position: absolute;
+ 	height: 80%;
+ 	width: 100%;
+ 	margin: 0;
+ 	z-index: 1;
+ 	
+ }
+ .firstIngredients {
+border: 1px solid black;
+	width: 40%;
+	height: 200px;
+	overflow: auto;
+background-color: red;
+float: left;
+}
+
+ .calendar-container {
+ width: 40%;
+ height: 200px;
+float: left;
+/*margin: 0 auto;*/
+border: 1px solid black;
+/*display: flex;
+box-sizing: border-box;
+flex-direction: row;
+flex-wrap: wrap;*/
+background-color: white;
+overflow: auto;
+
+}
+
+ .secondIngredients {
+border: 1px solid black;
+	width: 40%;
+	height: 200px;
+	overflow: auto;
+background-color: red;
+float: left;
+}
+ .secondImage {
+ 	position:relative;
+height: 200px;
+width: 20%;
+ border: 1px solid black;
+ margin: 0;
+float: left;
+}
+.secondImage > img {
+	height: 100%;
+	width: 100%;
+}
+
+ .secondInstructions{
+ width: 40%;
+ height: 200px;
+float: left;
+/*margin: 0 auto;*/
+border: 1px solid black;
+/*display: flex;
+box-sizing: border-box;
+flex-direction: row;
+flex-wrap: wrap;*/
+background-color: white;
+overflow: auto;
+
+}
+
+
+ .top {
+ 	height:10%;
+ 	width: 14.28%;
+ 	border: 1px solid black;
+ 	box-sizing: border-box;
+ 	background-color: hsla(1,32%,46%,.7);
+ 	text-align: center;
+ }
+ .day {
+ 	
+ 	height: 30%;
+ 	width:14.28%;
+ 	border: 1px solid black;
+ 	background-color: hsla(178,76%,35%,.6);
+ }
+
